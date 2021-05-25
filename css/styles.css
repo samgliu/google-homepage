@@ -1,0 +1,86 @@
+#navbar {
+    display: flex;
+    font-size: 12pt;
+    float: right;
+}
+#navbar>a {
+    text-align:center;
+    text-decoration: none;
+    color:rgb(38, 38, 43);
+    margin: 10px;
+}
+#navbar>img {
+    text-align:center;
+    margin: 3px 10px 10px 10px;
+}
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgb(38, 38, 43);
+    text-align: center;
+}
+#gimg {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search {
+    width: 55%;
+    max-width: 510px;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid #d4d5d6;
+    border-radius: 18px;
+    outline: none;
+    display: flex;
+}
+#search:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+#searchicon {
+    text-align:center;
+    margin: auto;
+}
+#searchbar {
+    font-size:24px;
+    border: 0px ;
+    width: 78%;
+    outline: none;
+}
+#voiceicon {
+    text-align:center;
+    margin: auto;
+}
+#appimg {
+    width: 30px;
+    height: 30px
+}
+#profileimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+#googleimg {
+    padding-top: 10rem;
+    padding-bottom: 0.5rem;
+}
+
+
+button{
+    font-size:14px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    margin: 4px;
+    padding: 6px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 0 11px rgba(112, 112, 112, 0.2); 
+}
+#mybutton{
+    padding-top: 1rem;
+}
